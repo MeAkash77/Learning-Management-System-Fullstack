@@ -1,0 +1,56 @@
+<div class="login-container d-flex justify-content-center align-items-center">
+  <div class="card p-5 shadow-lg login-card">
+    <h2 class="text-center text-primary mb-4">Login</h2>
+    <form (ngSubmit)="login()">
+      <div class="form-group mb-3">
+        <label for="username" class="form-label">Username:</label>
+        <input
+          type="text"
+          id="username"
+          [(ngModel)]="username"
+          name="username"
+          class="form-control form-control-lg"
+          placeholder="Enter your username"
+          required
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="password" class="form-label">Password:</label>
+        <input
+          type="password"
+          id="password"
+          [(ngModel)]="password"
+          name="password"
+          class="form-control form-control-lg"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <!-- Login Button or Loading Indicator -->
+      <div class="form-group mb-3">
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg w-100 mt-3"
+          [disabled]="isLoading"
+        >
+          <span *ngIf="!isLoading">Login</span>
+          <span *ngIf="isLoading">
+            <div
+              class="spinner-border spinner-border-sm text-light"
+              role="status"
+            >
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            Logging in...
+          </span>
+        </button>
+      </div>
+
+      <!-- Display error message if any -->
+      <div *ngIf="errorMessage" class="alert alert-danger mt-4 text-center">
+        {{ errorMessage }}
+      </div>
+    </form>
+  </div>
+</div>
