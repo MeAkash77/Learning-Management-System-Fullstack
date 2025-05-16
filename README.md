@@ -384,7 +384,7 @@ Ensure the following prerequisites are installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/hoangsonww/Learning-Management-System-Fullstack.git
+   git clone https://github.com/MeAkash77/Learning-Management-System-Fullstack.git
    cd Fullstack-Learning-Management-System/LMS-Backend
    ```
 
