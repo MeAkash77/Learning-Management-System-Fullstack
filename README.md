@@ -130,9 +130,7 @@ Feel free to explore the platform, create an account, and test out the features.
 
 **Login Page**:
 
-<p align="center" style="cursor: pointer">
-  <img src="docs/login-ui.png" alt="Login Page" style="border-radius: 10px" width="100%"/>
-</p>
+![Image](https://github.com/user-attachments/assets/d9b1040d-0016-488b-9b67-0e847f89050d)
 
 **Unauthorized Access (when not logged in)**:
 
