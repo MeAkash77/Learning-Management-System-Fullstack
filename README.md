@@ -877,10 +877,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions or need further assistance, contact us at [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
-
-Alternatively, you can also open an issue in the repository [here](https://github.com/hoangsonww/Learning-Management-System-Fullstack/issues).
-
----
+If you have any questions or need further assistance, contact us at [iakshu845@gmail.com](mailto:iakshu845@gmail.com).
 
 **[⬆ Back to Top](#e-learning-management-fullstack-system)**
